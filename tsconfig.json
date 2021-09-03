@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "declaration": true /* Generates corresponding '.d.ts' file. */,
+    "declarationDir": "dist/types" /* where the types will be built. */,
+    "sourceMap": true /* Generates corresponding '.map' file. */,
+    "rootDir": "./src/" /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,
+  
+  },
+  "include": ["src/**/*"],
+    "exclude": [
+        "node_modules",
+        "build",
+        "src/**/*.stories.tsx",
+        "src/**/*.test.tsx"
+    ]
+
+}

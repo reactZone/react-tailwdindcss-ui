@@ -1,0 +1,107 @@
+/* Button Component css */
+.ui_btn:hover {
+  box-shadow: rgb(215 226 241) 0px 5px 16px;
+}
+
+.ui_btn_text_link {
+  @apply bg-transparent border-0 shadow-none text-primary-500 font-normal;
+}
+.ui_btn_underline_text_link {
+  @apply bg-transparent border-0 shadow-none underline text-primary-500 font-normal;
+}
+.ui_btn_text_link:hover {
+  box-shadow: none;
+}
+.ui_btn_underline_text_link:hover {
+  box-shadow: none;
+}
+.ui_btn_svg svg {
+  @apply h-4 mx-3;
+}
+.ui_btn_pb {
+  @apply bg-primary-500 text-white text-base font-bold;
+}
+.ui_btn_pb:hover {
+  @apply bg-primary-600;
+}
+
+.ui_btn_pob {
+  @apply border-primary-500 border bg-transparent text-primary-500 text-base font-normal;
+}
+.ui_btn_pob:hover {
+  @apply bg-primary-50;
+}
+
+.ui_btn_sob {
+  @apply border-gray-500 border bg-transparent text-gray-900 text-base font-normal;
+}
+
+.ui_btn_suc-b {
+  @apply bg-success-500 text-white text-base font-bold;
+}
+.ui_btn_suc-b:hover {
+  @apply bg-success-600;
+}
+
+.ui_btn_suc-ob {
+  @apply border-success-500 border bg-transparent text-success-500 text-base font-normal;
+}
+.ui_btn_suc-ob:hover {
+  @apply text-success-600;
+}
+
+.ui_btn_wb {
+  @apply bg-warning-500 text-white text-base font-bold;
+}
+.ui_btn_wb:hover {
+  @apply bg-warning-600;
+}
+
+.ui_btn_wob {
+  @apply border-warning-500 border bg-transparent text-warning-500 text-base font-normal;
+}
+.ui_btn_wob:hover {
+  @apply text-warning-600;
+}
+
+.ui_btn_db {
+  @apply bg-danger-500 text-white text-base font-bold;
+}
+.ui_btn_db:hover {
+  @apply bg-danger-600;
+}
+
+.ui_btn_dob {
+  @apply border-danger-500 border bg-transparent text-danger-500 text-base font-normal;
+}
+.ui_btn_dob:hover {
+  @apply text-danger-600;
+}
+
+.ui_btn_disabled {
+  @apply bg-gray-400 text-white text-base font-bold;
+}
+.ui_btn_disabled:hover {
+  @apply bg-gray-500;
+}
+
+.ui_btn_dab {
+  @apply bg-gray-900 text-white text-base font-bold;
+}
+.ui_btn_dab:hover {
+  @apply bg-gray-900;
+}
+
+.ui_btn_daob {
+  @apply border-gray-900 border bg-transparent text-gray-900 text-base font-normal;
+}
+
+.ui_btn_hollow {
+  @apply border-dashed !important;
+}
+.ui_btn_light {
+  @apply bg-white text-gray-900;
+}
+.ui_btn_link {
+  @apply bg-white text-gray-900;
+}
