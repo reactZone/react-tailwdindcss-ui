@@ -1,7 +1,7 @@
-import * as React from 'react';
+import * as React from 'react'
 // also exported from '@storybook/react' if you can deal with breaking changes in 6.1
-import { Story, Meta } from '@storybook/react/types-6-0';
-import { Button, ButtonProps } from '../index';
+import { Story, Meta } from '@storybook/react/types-6-0'
+import { Button, ButtonProps } from '../index'
 
 export default {
 	title: 'Components/Button',
@@ -9,18 +9,18 @@ export default {
 	parameters: {
 		docs: {
 			source: {
-				type: 'code',
-			},
-		},
-	},
-} as Meta;
+				type: 'code'
+			}
+		}
+	}
+} as Meta
 
 // const Template: Story<ButtonProps> = (args) => <Button {...args} />;
 export const Variant: Story<ButtonProps> = (args) => (
 	<div>
 		<Button {...args}>Button</Button>
 	</div>
-);
+)
 
 const WithLeftSvgComponent = () => {
 	return (
@@ -34,8 +34,8 @@ const WithLeftSvgComponent = () => {
 			</svg>
 			<div>Button</div>
 		</React.Fragment>
-	);
-};
+	)
+}
 
 const WithRightSvgComponent = () => {
 	return (
@@ -49,8 +49,8 @@ const WithRightSvgComponent = () => {
 				/>
 			</svg>
 		</React.Fragment>
-	);
-};
+	)
+}
 
 const BothSideSvgComponent = () => {
 	return (
@@ -71,8 +71,8 @@ const BothSideSvgComponent = () => {
 				/>
 			</svg>
 		</React.Fragment>
-	);
-};
+	)
+}
 
 export const WithRightSvg: Story<ButtonProps> = (args) => (
 	<div>
@@ -80,7 +80,7 @@ export const WithRightSvg: Story<ButtonProps> = (args) => (
 			<WithLeftSvgComponent/>
 		</Button>
 	</div>
-);
+)
 
 export const WithLeftSvg: Story<ButtonProps> = (args) => (
 	<div>
@@ -88,7 +88,7 @@ export const WithLeftSvg: Story<ButtonProps> = (args) => (
 			<WithRightSvgComponent/>
 		</Button>
 	</div>
-);
+)
 
 export const BothSideSvg: Story<ButtonProps> = (args) => (
 	<div>
@@ -96,4 +96,4 @@ export const BothSideSvg: Story<ButtonProps> = (args) => (
 			<BothSideSvgComponent/>
 		</Button>
 	</div>
-);
+)
